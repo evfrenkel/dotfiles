@@ -1,6 +1,8 @@
 [ -f /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash ] && . /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
 
 alias cat='bat'
+export BAT_THEME="GitHub"
+
 alias help='tldr'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
